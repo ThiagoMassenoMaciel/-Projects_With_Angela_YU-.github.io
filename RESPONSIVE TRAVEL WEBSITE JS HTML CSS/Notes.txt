@@ -8,3 +8,8 @@ Watch it on youtube https://youtu.be/cgV2tN8gxCg?si=3iBUZQzfVuiM2gZ7
 >Smooth scrolling in each section.
 >Developed first with the Mobile First methodology, then for desktop.
 >Compatible with all mobile devices and with a beautiful and pleasant user interface.
+
+
+
+
+3 nov tooks me 44' and i stop at timeStamp 6'0"
