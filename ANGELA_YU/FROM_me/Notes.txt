@@ -1,0 +1,4 @@
+Exercises 
+
+Headings 
+    Use tags h1, h2 , h3 , h4  looks like the sumary of some book
