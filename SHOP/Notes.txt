@@ -78,12 +78,15 @@ npm run dev
 		fazer o import dele no main.jsx
 		e colocar dentro das rotas pra função criadora de rotas pros componentes
 
-	dentro do NavItems crie 3 useState -menu  -social  -header
-	
+	dentro do NavItems crie 3 useState -menu  -social  -header	
 
 	Add uma imagem no header com link para o proprio site 
 	
 	parei minuto 50'
+
+	50:00  Preparando todo o header 
+	56:45  usando font do site     'https://icofont.com/examples'
+	
 
 
 Parte 2 video  (https://youtu.be/PGuKjkdGrEI?si=oSDbfUXv8Bn6yojA) 5h38'     durante 68 dias assistindo 5' por dia TERMINO
