@@ -90,7 +90,26 @@ npm run dev
 	56:45  usando font do site     'https://icofont.com/examples'
 	
 	parei minuto 1h
+	create bannerjsx component
 
+	coloca o component <banner/> dentro do componente home
+
+	add texto into the home page (banner)  look at the parte of explanation about the text in the file project_description.md 
+	2. Texts for Home Page     
+	/  bannerList /
+	array have elements 
+			kinda of object
+					properies name of icon from that site 'https://icofont.com/examples'
+					and text subtitle 
+
+
+	form   get out action=""
+	input home page section estilizadão
+
+	10' watched i waste 1h56 . minute video i end was 1h10'
+
+
+	
 
 Parte 2 video  (https://youtu.be/PGuKjkdGrEI?si=oSDbfUXv8Bn6yojA) 5h38'     durante 68 dias assistindo 5' por dia TERMINO
 										    17 DIAS assistindo 20' por dia TERMINO
