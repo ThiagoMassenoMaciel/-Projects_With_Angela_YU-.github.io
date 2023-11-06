@@ -89,6 +89,7 @@ npm run dev
 	50:00  Preparando todo o header 
 	56:45  usando font do site     'https://icofont.com/examples'
 	
+	parei minuto 1h
 
 
 Parte 2 video  (https://youtu.be/PGuKjkdGrEI?si=oSDbfUXv8Bn6yojA) 5h38'     durante 68 dias assistindo 5' por dia TERMINO
