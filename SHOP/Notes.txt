@@ -1,0 +1,78 @@
+|||||||||| React ecommerse website  ||||||||||
+
+
+Parte 1 video  (https://youtu.be/pjEC9d28SKM?si=nA9EIsgWEZLbZy1K) 4h        durante 48 dias assistindo 5' por dia TERMINO
+
+Prompt       link from reactrouter.com -> tutorial ->Setup   paste npm create vite@latest 
+              choose 
+                  react framework
+                  JavaScript variant 
+npm intall    into that foulder 
+
+npm run dev 
+
+
+	into the file App.jsx
+		delete all html code and imports about vite , react
+
+
+	copy this link from reactrouter.com -> tutorial ->Setup   paste terminal promt split ' npm install react-router-dom localforage match-sorter sort-by'
+	ADDING ROUTER like is teach in  detail on site reactrouter.com tutorial 
+		element : to actual App.jsx 
+
+	Delete lines of code files.css
+
+	got to page BOOTSTRAP 5 npm install            'npm i bootstrap@5.3.2'
+	
+	go to site  react BOOTSTRAP.github.io
+		    copy for paste  npm install again  'npm install react-bootstrap bootstrap'
+	go to site  react countup
+		    copy for paste  npm install again  'npm i react-countup'
+	go to site  react swiper
+		    copy for paste  npm install again  ' npm install swiper'
+	go to site  poppins
+		    copy for past npm again            'npm i @popperjs/core'
+
+	STEP STARTER FILES from him repos on github dowload zip 
+		into the foulder 
+			[]src
+				assents[]
+				     	    images[] 
+					    get copy to paste 3 this files DATA TO PJ
+
+	import some things to the main.jsx
+
+
+
+	35:35 create a component Home.jsx
+			[]src
+				[]home
+					Home.jsx
+						rafce	tricks atalho     rapariga q funciona no ceara     rapadura é fama no ceara   rafce
+
+	37:15 add array into the main.jsx  called children: [  que é o caminho para acessar o componente Home]  
+
+		para todo componente que eu criar devo exportalo com nome padrão 
+		fazer o import dele no main.jsx
+		e colocar dentro das rotas pra função criadora de rotas pros componentes
+
+	38:52 add +foulser into the []src and within their componente      called Blog
+
+		para todo componente que eu criar devo exportalo com nome padrão 
+		fazer o import dele no main.jsx
+		e colocar dentro das rotas pra função criadora de rotas pros componentes
+
+
+		ERRO:  quando coloquei isso ; depois da linha que criava o padão do component Blog export 
+		        Root file specified for compilationts(1261)     
+			esta linha dentro do main.jsx ficava sinalizando erro 
+			import Blog from './blog/Blog.jsx';
+
+		solution: 
+			You can use the following method as a workaround in Visual Studio. 
+			File > Preferences > Settings, type “typescript validate” in the 
+			search bar, and uncheck the result1. []right       [v]wrong
+
+	Agora add o component fixo , NavItems
+
+Parte 2 video  (https://youtu.be/PGuKjkdGrEI?si=oSDbfUXv8Bn6yojA) 5h38'     durante 68 dias assistindo 5' por dia TERMINO

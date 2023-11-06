@@ -1,0 +1,24 @@
+E1 :
+    After use link to use react and variant JS e dont use npm install into the foulder that have react and Js included
+
+    and so  type 
+                > npm install ./REACT_files
+E2 :   
+    npm run dev          doesn´t work 
+
+                          i try to fix it 
+                                        
+                                        Perhaps you are using the Vue CLI 3? If yes, there is no "dev" build script. 
+                                        Earlier versions of the Vue 2 boilerplate
+
+                                        project had a "dev" script - but no longer.
+
+                                        Instead use the "serve" script
+                                        and your Vue project will run as dev
+
+                                        npm run serve
+
+                          keeping doesn't work 
+
+                          i try to       npm run dev into the actual foulder that have react and vite files 
+			  its work's .
