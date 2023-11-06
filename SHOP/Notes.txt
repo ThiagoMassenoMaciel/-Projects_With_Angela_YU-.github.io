@@ -74,5 +74,16 @@ npm run dev
 			search bar, and uncheck the result1. []right       [v]wrong
 
 	Agora add o component fixo , NavItems
+		para todo componente que eu criar devo exportalo com nome padrão 
+		fazer o import dele no main.jsx
+		e colocar dentro das rotas pra função criadora de rotas pros componentes
+
+	dentro do NavItems crie 3 useState -menu  -social  -header
+	
+
+	Add uma imagem no header com link para o proprio site 
+	
+	parei minuto 50'
+
 
 Parte 2 video  (https://youtu.be/PGuKjkdGrEI?si=oSDbfUXv8Bn6yojA) 5h38'     durante 68 dias assistindo 5' por dia TERMINO
