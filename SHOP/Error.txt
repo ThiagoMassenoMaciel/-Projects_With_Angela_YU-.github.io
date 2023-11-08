@@ -22,3 +22,12 @@ E2 :
 
                           i try to       npm run dev into the actual foulder that have react and vite files 
 			  its work's .
+
+E3 : I cannot type into the banner home page , 
+
+    🚫 not made function syntax
+          const setSearchInput = searchTerm;
+    ✅
+          setSearchInput(searchTerm);
+
+	

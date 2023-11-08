@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import productData from '../../products.json'
 
 const title = (
-  <h2>Search Your One From <span>Thousands</span> of Prodducts </h2>
+  <h2>Search Your One From <span>Thousands</span> of Products </h2>
 )
 
 const desc = "we have the largest collection of products"
@@ -33,6 +33,7 @@ const Banner = () => {
     //console.log(e.target.value)
     //console.log("entrou dentro da variavel  handleSearch = com arrow function")
       const searchTerm = e.target.value;
+      setSearchInput(searchTerm);
   }
 
   return (
@@ -53,7 +54,7 @@ const Banner = () => {
               />
 
             </form>
-            
+
         </div>
       </div>
     </div>
