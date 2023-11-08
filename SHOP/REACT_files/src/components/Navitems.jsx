@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import logo from '../assets/images/logo/logo.png'
+
 const Navitems = () => {
   const [menuToggle, setMenuToggle] = useState(false)
   const [socialToggle, setSocialToggle] = useState(false)
@@ -60,7 +61,6 @@ const Navitems = () => {
                         <li><Link to="/blog">Blog</Link></li>
                         <li><Link to="/about">About</Link></li>
                         <li><Link to="/contact">Contact</Link></li>
-
                       </ul>
                   </div>
 

@@ -37,19 +37,23 @@ const Banner = () => {
 
   return (
     <div className="banner-section style-4"> 
-      <div className="container">
+      <div className="container">" 
         <div className="banner-content">
+
             {title}
             <form>
+
               <input 
-                type="text" 
-                name="search" 
-                id="search" 
-                placeholder="Search your product" 
-                value={searchInput}
-                onChange={handleSearch}
+                  type="text" 
+                  name="search" 
+                  id="search" 
+                  placeholder="Search your product" 
+                  value={searchInput}
+                  onChange={handleSearch}
               />
+
             </form>
+            
         </div>
       </div>
     </div>
