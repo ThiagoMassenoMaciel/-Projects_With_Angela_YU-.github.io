@@ -1,5 +1,7 @@
 |||||||||| React ecommerse website  ||||||||||
 
+modelo ()[https://github.com/mdalmamunit427/advanced-reactjs-ecommerce-website-starter-files]
+
 
 Parte 1 video  (https://youtu.be/pjEC9d28SKM?si=nA9EIsgWEZLbZy1K) 4h        durante 48 dias assistindo 5' por dia TERMINO
 										    12 dias assistindo 20'
@@ -117,6 +119,37 @@ i let 1 hour to read and understand the content
 		      /Select it and put on array that specific products(OBJECTS) that have into their property names includes the word 
 		      from user are searching
       		      /[consider : both names used to search and to be finded are lowerCase]
+
+
+
+	1h17 Novo componente das categorias 
+		SeletedCategory.jsx
+			selectcategore on the description file
+				criei um componente que representa o botão com todas as categorias pro produto a ser pesquisado pelo usuário
+				e usei este componente dentro de outro componente , log tive que exportá-lo 
+
+
+	segundo pedaço do home 
+	1H 21' create new component into the foulder home[] 
+							HomeCategory.jsx
+		
+				
+				
+				home 
+					pedaço um BANNER
+					pedaço dois HOMECATEGORY
+
+----------------------------------------------------coisas que percebi no react tem duas partes -------------------------------
+
+os dados , as informações que vão aparecer     import from , constantes para armazenar texto     , e a constante principal é as caixas onde cada informação vai ficar 
+-----------------------------------------
+e em qual caixa vão esta 
+
+-------------------------------------------------------------
+				
+			dentro do HomeCtegory fazer seu header
+
+parei no tempo 
 
 Parte 2 video  (https://youtu.be/PGuKjkdGrEI?si=oSDbfUXv8Bn6yojA) 5h38'     durante 68 dias assistindo 5' por dia TERMINO
 										    17 DIAS assistindo 20' por dia TERMINO

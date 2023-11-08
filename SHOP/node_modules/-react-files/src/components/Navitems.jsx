@@ -10,7 +10,7 @@ const Navitems = () => {
   //add event listenner
   window.addEventListener("scroll", ()=> { 
     // When you scroll the viewport on flow direction Vertical(Y) i will set the Position fixed
-    if (window.scrollY > 200){
+    if (window.scrollY > 100){
         setHeaderFixed(true)
     }else{
         setHeaderFixed(false)

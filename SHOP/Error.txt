@@ -35,3 +35,17 @@ E4: i cannot see working filteredProducts after typed in a input search
 	the data filtured is working , doesnt working to display those li into that ul from Banner const 
 		the dev tools there looks like theres no element into the ul tag 
 	
+	maybe its because the react doesn't render more then 2 elements html per component 
+	Instead of that use this :
+
+ 		<React.Fragment>
+
+			<elemento html 1>
+			</elemento html 1>
+
+			<elemento html 2>
+			</elemento html 2>
+
+		</React.Fragment>
+
+		or this <></>
