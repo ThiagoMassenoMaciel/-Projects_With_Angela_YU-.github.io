@@ -27,7 +27,7 @@ const Banner = () => {
   const [searchInput, setSearchInput] = useState("");
   const [filteredProducts, setfilteredProducts] = useState(productData);
 
-  console.log(productData);
+  //console.log(productData);
 
   //Search funtionality
   const handleSearch =( e )=> {
@@ -42,8 +42,14 @@ const Banner = () => {
       const filtered = productData.filter((product) =>  product.name.toLowerCase().includes(searchTerm.toLowerCase()) )
       //Select it and put on array that specific products(OBJECTS) that have into their property names includes the word from user are searching 
       //[consider : both names used to search and to be finded are lowerCase]
+      console.log("antes de setar");
 
       setfilteredProducts(filtered);
+
+      console.log(filtered)
+
+      console.log("depois de setar");
+      
 
   }
 
@@ -63,17 +69,18 @@ const Banner = () => {
                   value={searchInput}
                   onChange={handleSearch}
               />
-
+              <button type="submit">
+                  <i className="icofont-search"></i>
+              </button>
             </form>
 
             <p> {desc} </p>
 
-            <ul className="lab-ul">  
+            <ul className="lab-ul"> 
+             
                 {
-                  searchInput && filteredProducts.map( (product, i ) => 
-                    {
-                      <li key={i}>
-                        <Link to={`/shop/${product.id}`}>  {product.name}  </Link>  
+                  searchInput && filteredProducts.map( (product, i ) => { <li key={i}>
+                        <Link to={`/shop/${product.id}`} >  {product.name}  </Link>  
                       </li> 
                     }
                   )
