@@ -30,7 +30,7 @@ const Banner = () => {
   //console.log(productData);
 
   //Search funtionality
-  const handleSearch =( e )=> {
+  const handleSearch = ( e )=> {
     //console.log(e.target.value)
     //console.log("entrou dentro da variavel  handleSearch = com arrow function")
 
@@ -50,7 +50,6 @@ const Banner = () => {
 
       console.log("depois de setar");
       
-
   }
 
   return (
@@ -69,25 +68,24 @@ const Banner = () => {
                   value={searchInput}
                   onChange={handleSearch}
               />
+
               <button type="submit">
                   <i className="icofont-search"></i>
               </button>
+              
             </form>
 
             <p> {desc} </p>
 
             <ul className="lab-ul"> 
-             
-                {
-                  searchInput && filteredProducts.map( (product, i ) => { <li key={i}>
-                        <Link to={`/shop/${product.id}`} >  {product.name}  </Link>  
-                      </li> 
-                    }
-                  )
-                }
+              
+              {
+                searchInput && filteredProducts.map( (product, i ) => { <li key={i}> <Link to={`/shop/${product.id}`}> {product.name} </Link> </li> 
+                  }
+                )
+              }
+
             </ul>
-
-
         </div>
       </div>
     </div>
