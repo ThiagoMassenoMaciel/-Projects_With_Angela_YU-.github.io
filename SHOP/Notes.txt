@@ -114,7 +114,9 @@ i let 1 hour to read and understand the content
 	BANNER.JSX
 	//search funtionality
 	//filtering products based on search 
-	
+		      /Select it and put on array that specific products(OBJECTS) that have into their property names includes the word 
+		      from user are searching
+      		      /[consider : both names used to search and to be finded are lowerCase]
 
 Parte 2 video  (https://youtu.be/PGuKjkdGrEI?si=oSDbfUXv8Bn6yojA) 5h38'     durante 68 dias assistindo 5' por dia TERMINO
 										    17 DIAS assistindo 20' por dia TERMINO

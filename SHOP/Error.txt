@@ -30,4 +30,5 @@ E3 : I cannot type into the banner home page ,
     ✅
           setSearchInput(searchTerm);
 
+E4: i cannot see working filteredProducts after typed in a input search
 	

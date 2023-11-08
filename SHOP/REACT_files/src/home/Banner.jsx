@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import productData from '../../products.json'
+import { Link } from 'react-router-dom';
 
 const title = (
   <h2>Search Your One From <span>Thousands</span> of Products </h2>
@@ -32,8 +33,18 @@ const Banner = () => {
   const handleSearch =( e )=> {
     //console.log(e.target.value)
     //console.log("entrou dentro da variavel  handleSearch = com arrow function")
+
+    	//search funtionality
       const searchTerm = e.target.value;
       setSearchInput(searchTerm);
+
+    	//filtering products based on search
+      const filtered = productData.filter((product) =>  product.name.toLowerCase().includes(searchTerm.toLowerCase()) )
+      //Select it and put on array that specific products(OBJECTS) that have into their property names includes the word from user are searching 
+      //[consider : both names used to search and to be finded are lowerCase]
+
+      setfilteredProducts(filtered);
+
   }
 
   return (
@@ -54,6 +65,21 @@ const Banner = () => {
               />
 
             </form>
+
+            <p> {desc} </p>
+
+            <ul className="lab-ul">  
+                {
+                  searchInput && filteredProducts.map( (product, i ) => 
+                    {
+                      <li key={i}>
+                        <Link to={`/shop/${product.id}`}>  {product.name}  </Link>  
+                      </li> 
+                    }
+                  )
+                }
+            </ul>
+
 
         </div>
       </div>
