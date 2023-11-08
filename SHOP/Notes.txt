@@ -110,6 +110,10 @@ npm run dev
 
 
 i let 1 hour to read and understand the content
+
+	BANNER.JSX
+	//search funtionality
+	//filtering products based on search 
 	
 
 Parte 2 video  (https://youtu.be/PGuKjkdGrEI?si=oSDbfUXv8Bn6yojA) 5h38'     durante 68 dias assistindo 5' por dia TERMINO
