@@ -1,3 +1,0 @@
-Make a commit after colene ssh  (error_1)
-  I make clone with ssh for add new foulder-New Project this current project 
-  after i take notes , wasnt possible to make a commit from the git open the foulder root to this repository 

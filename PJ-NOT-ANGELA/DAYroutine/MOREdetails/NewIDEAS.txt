@@ -1,0 +1,1 @@
+(other project kind of explain the content and show praticle examples)[https://git-scm.com/docs/git-commit/pt_BR]
