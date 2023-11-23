@@ -1,0 +1,20 @@
+Project do deep Algorithms in JavaScript 
+(https://youtube.com/playlist?list=PLC3y8-rFHvwjPxNAKvZpdnsr41E0fCMMP&si=vFu-Xu3JDlcN9Uze)
+
+Day 1  4'
+    What is Algorithm ?
+    Mensuring performance
+    Time and Space complexity
+    Big O notation 
+    Math Algorithms
+    Sort Algorithms
+    Search Algorithms
+    Misc. (miscelenius) Algorithms and problem solving
+
+    Prerequisites
+        JavaScript fundamentals crach course(https://youtu.be/XIOLqoPHCJ4?si=JIFl8IN1SxLG7KcD)
+        Advanced JavaScript crash course(https://youtu.be/R9I85RhI7Cg?si=AL7BN7z0Lj0yMq2D)
+        ES2015 Topics (https://youtu.be/-Z0i100x0mc?si=eniae9MwWif3W8sH)
+
+
+next playlist to go with into deeper (https://youtu.be/lxb567HEn8k?si=kI4N5wXJhSzwRLOx)
