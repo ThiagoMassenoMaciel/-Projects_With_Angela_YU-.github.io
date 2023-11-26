@@ -1,0 +1,14 @@
+Changed 
+
+action       click any li link to some web page 
+reaction     small boll with icon from li nav up
+
+             change the css value flexbox     to  
+                                |flex-start   -       -   |
+                                |   -      center     -   |
+                                |   -         -   flex-end|
+
+
+Tutorial   4'20" (https://youtu.be/P8O78APM17c?si=9XiIq1ibAC2CIMyg)
+i need     35' for get done at 
+figma (https://www.figma.com/file/k1V3bBfdOiIg7HXWkrmQET/menu-styled?type=design&node-id=0-1&mode=design&t=HbYsWzvWSsEQQ4zv-0)
