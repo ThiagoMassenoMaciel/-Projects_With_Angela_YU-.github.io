@@ -1,1 +1,2 @@
 Challenges did design on figma and become it to frontend JavaScript 
+Follow this playlist to make designs (figma animations)[https://youtube.com/playlist?list=PLBblYKb7F1vr1EOc_ber1cuYpjmefGZZx&si=7V2gxfXObPvO5T6p]
