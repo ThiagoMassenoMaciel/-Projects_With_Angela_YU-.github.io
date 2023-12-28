@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    color: rgb(241, 152, 152) ;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+:root{
+    font-size: 62.5%;
+
+}
+
+body{
+    display:inline;
+    font-size: 1.6rem;
+    background: rgb(231, 231, 231);
+
+    text-align: center;
+    align-items:center ;
+}
+
+#app{
+    margin: 8rem auto;
+    
+    padding-top: 3rem;
+    width: 27rem;
+    height: 50rem;
+    background: rgb(255, 255, 255);
+
+    border-radius: 0 12rem 0 12rem;
+}
+main{
+    margin-top: 7rem;
+    position: relative;
+}
+
+main #i1{
+    margin-left: 0;
+    width: 27rem;
+    height: 20rem;
+}
+
+
+main #i2{
+    margin-left: 0;
+    width: 10rem;
+    height: 11rem;
+    position: absolute;
+    left: 2rem;
+    margin-top: 4rem;
+}
+
+main span{
+    width: 10.5rem;
+    
+    font-weight: 700;
+    font-size: 4.2rem;
+    line-height: 4rem;
+
+    letter-spacing: 0.2rem;
+    position: absolute;
+    top : 4rem;
+    left: 10rem;
+    color: #000;
+    font-family: 'Dancing Script', cursive;
+}
+footer{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap:  1rem;
+}
+
+footer.wrapper{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+footer img{
+    margin-left: 0;
+    margin-bottom: -0.6rem;    
+}
+
+footer a {
+    margin: 0;
+}
+
+footer #im2{
+    width: 2rem;
+    height: 2rem;
+}
+footer #im1{
+    width: 2.5rem;
+    height: 2.5rem;
+}
