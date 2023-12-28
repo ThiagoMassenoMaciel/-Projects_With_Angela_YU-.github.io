@@ -1,0 +1,11 @@
+Contents 
+
+
+JavaScript 
+
+
+  Classes
+    ->Easy
+
+  Estrategy to better code
+    ->Not to write the same thing a lot of times again and again 
